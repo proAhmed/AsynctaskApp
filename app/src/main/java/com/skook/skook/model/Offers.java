@@ -10,8 +10,8 @@ public class Offers {
     private String offer_title;
     private String region_title;
     private String city_title;
-    private double edge;
-    private double distance;
+    private String edge;
+    private String distance;
     private String image;
 
     public Offers() {
@@ -49,19 +49,19 @@ public class Offers {
         this.city_title = city_title;
     }
 
-    public double getEdge() {
+    public String getEdge() {
         return edge;
     }
 
-    public void setEdge(double edge) {
+    public void setEdge(String edge) {
         this.edge = edge;
     }
 
-    public double getDistance() {
+    public String getDistance() {
         return distance;
     }
 
-    public void setDistance(double distance) {
+    public void setDistance(String distance) {
         this.distance = distance;
     }
 

@@ -24,9 +24,9 @@ public class Offer {
     private String city_title;
     private String region_title;
     private String offer_title;
-    private double longitude;
-    private double latitude;
-    ArrayList<String> images;
+    private String longitude;
+    private String latitude;
+    private ArrayList<String> images;
 
     public Offer() {
     }
@@ -159,19 +159,19 @@ public class Offer {
         this.offer_title = offer_title;
     }
 
-    public double getLongitude() {
+    public String getLongitude() {
         return longitude;
     }
 
-    public void setLongitude(double longitude) {
+    public void setLongitude(String longitude) {
         this.longitude = longitude;
     }
 
-    public double getLatitude() {
+    public String getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(double latitude) {
+    public void setLatitude(String latitude) {
         this.latitude = latitude;
     }
 

@@ -10,8 +10,8 @@ public class OffersMain {
 
     private int code;
     private String message;
-    private int count;
     private ArrayList<Offers> data;
+    private int all;
 
     public OffersMain() {
     }
@@ -40,11 +40,11 @@ public class OffersMain {
         this.data = data;
     }
 
-    public int getCount() {
-        return count;
+    public int getAll() {
+        return all;
     }
 
-    public void setCount(int count) {
-        this.count = count;
+    public void setAll(int all) {
+        this.all = all;
     }
 }

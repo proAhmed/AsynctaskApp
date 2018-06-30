@@ -1,7 +1,5 @@
 package com.skook.skook.model;
 
-import java.util.ArrayList;
-
 /**
  * Created by ahmed radwan on 11/14/2017.
  */
